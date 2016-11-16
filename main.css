@@ -1,0 +1,50 @@
+main {
+	padding-top: 100px;
+}
+
+nav {
+	position: fixed;
+	background-color: solid orange;
+	height: 50px;
+	left: 0;
+	top: 0;
+	width: 100px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.row {
+	max-width: 1000px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin: 0 auto;
+}
+
+.box {
+	height: 200px;
+	padding-top: 30px;
+}
+
+.row::before, 
+.row::after {
+	display: table;
+	content: '';
+}
+
+.row::after {
+	clear: both;
+}
+
+.col-12 {
+	float: left;
+	padding-left: 1.04166666%;
+  	padding-right: 1.04166666%;
+}
+
+@media only screen and (min-width: 640px) {
+	.col-12 {
+		width: 100%;
+	}
+}
