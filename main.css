@@ -1,52 +1,41 @@
-/* CSS */
-
-main {
-	padding-top: 100px;
+header {
+  background-color: orange;
+  margin-bottom: 40px;
 }
 
-nav {
-	position: fixed;
-	background-color: solid orange;
-	height: 50px;
-	left: 0;
-	top: 0;
-	width: 100px;
+body {
+  color: white;
 }
 
-* {
-	box-sizing: border-box;
+header h1 {
+  line-height: 1;
+  margin-bottom: 0;
 }
 
-.row {
-	max-width: 1000px;
-	padding-left: 30px;
-	padding-right: 30px;
-	margin: 0 auto;
+header p {
+  margin-top: 3px;
 }
 
-.box {
-	height: 200px;
-	padding-top: 30px;
+.card {
+  border: 1px solid gray;
+  margin-bottom: 20px;
 }
 
-.row::before, 
-.row::after {
-	display: table;
-	content: '';
+.card-image {
+  width: 100%;
 }
 
-.row::after {
-	clear: both;
+.card-description {
+  padding: 20px;
 }
 
-.col-12 {
-	float: left;
-	padding-left: 1.04166666%;
-  	padding-right: 1.04166666%;
+.card-description h3 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-@media only screen and (min-width: 640px) {
-	.col-12 {
-		width: 100%;
-	}
-}
+.card-description p {
+  margin: 3px 0;
+
+
+
