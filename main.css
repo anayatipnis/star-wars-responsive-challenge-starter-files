@@ -4,7 +4,7 @@ header {
 }
 
 body {
-  color: white;
+  color: black;
 }
 
 header h1 {
@@ -35,7 +35,7 @@ header p {
 }
 
 .card-description p {
-  margin: 3px 0;
+  margin: 2px;
 }
 
 
